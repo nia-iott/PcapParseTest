@@ -4,7 +4,7 @@ import concurrent.futures
 
 start = time.perf_counter()
 
-data = ['wrccdc.2018-03-23.010014000000000.pcap', 'wrccdc.2018-03-23.010103000000000.pcap' ]
+data = ['[PCAP_File_Name]', '[PCAP_File_Name]' ]
 packets = rdpcap(data)
 
 
