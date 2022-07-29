@@ -3,8 +3,8 @@ import time
 
 start = time.perf_counter()
 
-packet1 = rdpcap('wrccdc.2018-03-23.010014000000000.pcap')
-packet2 = rdpcap('wrccdc.2018-03-23.010103000000000.pcap')
+packet1 = rdpcap('PCAP_File_Name')
+packet2 = rdpcap('PCAP_File_Name')
 
 def print_DNS():
     for packet in packet1:
