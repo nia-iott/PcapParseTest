@@ -4,7 +4,7 @@ import glob
 
 start = time.perf_counter()
 
-file_paths = glob.glob("wrccdc*")
+file_paths = glob.glob("[PCAP_File_Name]*")
 for file_path in file_paths:
     with open(file_path, "rb") as f:
         pcap = dpkt.pcap.Reader(f)
