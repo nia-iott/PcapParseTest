@@ -22,7 +22,7 @@ def print_pcap(pcap):
 
 
 def main():
-    f = open('wrccdc.2018-03-23.010014000000000.pcap', 'rb')
+    f = open('[PCAP_File_Name]', 'rb')
     pcap = dpkt.pcap.Reader(f)
     print_pcap(pcap)
 
